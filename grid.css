@@ -1,0 +1,131 @@
+h3.sort-by {
+    line-height: 1.2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #161616;
+	font-size: 25px;
+}
+
+.category-refinement {
+	margin-bottom: 100px;
+}
+
+.category-refinement .refinement-header {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+ul#category-level-1 li {
+	font-weight: 300;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.search-result-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-tile {
+	list-style-type: none;
+	margin: 20px 19px;
+	width: 30.5%;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+}
+
+.grid-tile .product-name,
+.grid-tile .product-dealername,
+.grid-tile .shopping-price {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #161616;
+}
+
+.grid-tile .product-name {
+	width: 60%;
+	float: left;
+}
+
+.grid-tile .viewdetail-link {
+	font-size: 21px;
+	line-height: 1.19;
+	letter-spacing: normal;
+	color: #ffd800;
+	width: auto;
+    float: right;
+	padding: 5px 33px 5px 0;
+	box-sizing: border-box;
+}
+.grid-tile .product-dealername .dealername {
+	width: auto;
+}
+
+.grid-tile .product-dealername .dealer-name {
+	width: auto;
+	margin-left: 5px;
+	color: #ffd800;
+	font-weight: bold;
+}
+
+.grid-tile .scratch-price {
+	font-size: 25px;
+	color: #75888e;
+}
+
+.grid-tile .shopping-price {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.grid-tile .shopping-price .offer {
+	color: #75888e;
+	font-weight: normal;
+}
+
+.product-tile > div:not(.product-image):not(.viewdetail-link) {
+	padding: 5px 33px;
+    box-sizing: border-box;
+}
+
+.grid-tile .product-name a {
+	color: #161616;
+}
+
+.grid-tile .viewdetail-link a {
+	color: #ffd800;
+}
+
+@media only screen and (max-width: 1680px) {
+	.grid-tile {
+		width: 29.9%;
+	}
+	
+	.product-list-page .body-content {
+		padding: 0 10px 0 24px;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.grid-tile {
+		width: 29.7%;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.grid-tile {
+		width: 29.5%;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.grid-tile {
+		width: 28.9%;
+	}
+}

@@ -1,0 +1,321 @@
+.product-info-page .body-content {
+	width: 84%;
+	margin: 0 auto;
+	display: block;
+}
+
+img {
+	max-width: 100%;
+}
+
+.car-details {
+	margin: 20px 0;
+}
+
+.car-details .prod-detail {
+	width: 80%;
+	float: left;
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.car-details .prod-location {
+	width: 18%;
+	float: right;
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.product-info-page .header {
+	margin-bottom: 20px;
+}
+
+.prod-detail > div {
+	float: left;
+}
+
+.prod-detail .prod-img {
+	width: 28%;
+}
+
+.prod-detail .prod-description {
+	width: 57.5%;
+	padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.prod-detail .prod-review {
+	width: 14.1%;
+}
+
+.choose-dealers {
+	color: #fff;
+	margin: 40px 0 30px;
+}
+
+.choose-dealers .left-content,
+.choose-dealers .right-content {
+	float: left;
+	width: 50%;
+}
+
+.choose-dealers .right-content {
+	padding: 0 2%;
+    box-sizing: border-box;
+}
+
+.dealer-selection-title {
+	font-size: 34px;
+	padding: 25px 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.dealer-selection-tab,
+.exterior-interior-tab {
+	margin: 0 0 50px 0 ;
+}
+
+.product-list-page .dealer-selection-tab {
+	margin: 0;
+}
+
+.dealer-selection-method,
+.exterior-interior-method {
+	width: auto;
+	float: left;
+	min-width: 170px;
+}
+
+.dealer-selection-method.second,
+.exterior-interior-method.fourth {
+	margin-left: 40px ;
+}
+
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #09161c;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+  background-color: #09161c;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+ 	top: 4.2px;
+    left: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+}
+
+.location-img {
+	width: 69px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	padding: 10px 0;
+}
+
+.prod-location .country-name {
+	padding: 15px 40px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.direction {
+	background: #f9f9f9;
+	height: 90px;
+	line-height: 90px;
+	font-size: 25px;
+}
+
+.load-more {
+    margin: 50px 0;	
+}
+
+.direction a {
+	display: block;
+}
+
+.direction a img {
+	width: 129.7px;
+    height: 25px;
+}
+
+.load-more a {
+	width: 100px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+	position: relative;
+	font-size: 20px;
+}
+
+.load-more a:after {
+    content: "";
+    display: inline-block;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    width: 18px;
+    height: 18px;
+    top: 35px;
+    position: absolute;
+    left: 41%;
+    transform: rotate(135deg);
+}
+
+.selector-wrapper {
+	font-size: 20px;
+}
+
+.choose-dealers .selector-wrapper .select-dropdown {
+	width: 29.3%;
+    height: 58px;
+    line-height: 58px;
+    background: #091418;
+    float: left;
+    margin: 15px 15px;
+    padding: 0 18px;
+    box-sizing: border-box;
+	position: relative;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    color: transparent;
+}
+
+.arrow.down {
+    transform: rotate(-135deg);
+    right: 18px;
+    top: 20px;
+}
+
+.prod-description .car-model-info {
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+}
+
+.prod-description .car-dealer,
+.prod-description .real-price {
+	font-weight: bold;
+}
+
+.off-percent {
+	font-weight: normal;
+}
+
+.prod-description .car-dealer a {
+	color: #ffd800;
+}
+
+.car-model-info > div {
+    width: auto;
+    padding: 0 15px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	line-height: 1;
+}
+
+.car-model-info > div:first-child {
+	padding-left: 0;
+	border: 0;
+}
+
+.car-model-info > div:last-child {
+	padding-right: 0;
+	border: 0;
+}
+
+.prod-description > div {
+	padding: 5px 0px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1366pc) {
+	.choose-dealers .selector-wrapper .select-dropdown { 
+		margin: 15px 10px;
+	}
+	
+	.dealer-selection-title {
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.choose-dealers .selector-wrapper .select-dropdown { 
+		margin: 15px 10px;
+		width: 28.5%;
+	}
+	
+	.dealer-selection-title {
+		font-size: 26px;
+	}
+}

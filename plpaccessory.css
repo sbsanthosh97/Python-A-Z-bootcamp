@@ -1,0 +1,25 @@
+.product-list-page .body-wrapper {
+	max-width: 1620px;
+	margin: 0 auto;
+	display: block;
+}
+
+.product-list-page .primary {
+    width: 83.104%;
+    float: right;
+}
+
+.product-list-page .secondary {
+	width: 14%;
+    float: left;
+}
+
+.category-refinement ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.product-list-page .body-content {
+	margin-top: 100px;
+}

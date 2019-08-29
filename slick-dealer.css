@@ -1,0 +1,138 @@
+.parent-div-dealer  button.slick-next, 
+.parent-div-dealer  button.slick-prev {
+	content: '';
+    width: 69px;
+    height: 69px;
+    /* border: 1px solid #1C3438; */
+    vertical-align: middle;
+    font-size: 0;
+    position: absolute;
+    bottom: 35px;
+    /* background: #1A3538; */
+    outline: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.parent-div-dealer  button.slick-next.slick-disabled, 
+.parent-div-dealer  button.slick-prev.slick-disabled {
+    /* background: #162A31; */
+}
+
+.parent-div-dealer  button.slick-next:before, 
+.parent-div-dealer  button.slick-prev:before {
+	content: "";
+    display: inline-block;
+    border-color: grey; 
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    width: 12px;
+    height: 12px;
+}
+
+.parent-div-dealer .slick-slide img{
+	
+	
+	max-height:auto;
+}
+
+.parent-div-dealer .slick-slide{
+	
+	height:auto;
+	padding-bottom:100px;
+}
+
+.parent-div-dealer  button.slick-next:before {	
+	transform: rotate(45deg);
+}
+
+.parent-div-dealer  button.slick-prev:before {
+	transform: rotate(-135deg);
+}
+
+.parent-div-dealer  button.slick-next {
+	left: 170px;
+	padding-right: 12px;
+} 
+
+.parent-div-dealer  button.slick-prev {
+	left: 86px;
+	padding-left: 14px;
+}
+
+.parent-div-dealer .slick-slider {
+	padding: 0;
+	margin: 0;
+}
+
+.slick-slide-dealer img {
+	max-width: 100%;
+}
+
+.parent-div-dealer  ul.slick-dots li {
+	width: 10px;
+    height: 10px;
+    font-size: 0px;
+    background: black;
+    border-radius: 50%;
+    outline: none;
+    margin: 0 4px;
+    display: inline-block;
+    border: 1px solid #77878E;
+}
+
+ul.slick-dots {
+    width: 65%;
+	margin: 250px 0;
+	padding: 10px 250px;
+    text-align: left;
+}
+
+.product-img-dealer{
+	width:700px;
+	float:left;
+	padding:30px;
+	
+}
+.product-img-dealer ul.slick-dots {
+    position: absolute;
+    bottom: 35px;
+    width: 30%;
+}
+.parent-div-dealer  ul.slick-dots li.slick-active {
+	background: #77878E;
+}
+
+.parent-div-dealer  ul.slick-dots li button {
+    text-indent: -9999px;text-indent: -9999px;border: navajowhite;background: none;outline: none;
+}
+
+.left-60width .slick-slide img {
+	height: 100%;
+	max-height: 480px;
+}
+
+.left-60width ul.slick-dots {
+	position: absolute;
+    bottom: 19px;
+	width: 75%;
+}
+
+@media only screen and (max-width: 1366px) {
+	.parent-div-dealer button.slick-next, 
+	.parent-div-dealer button.slick-prev {
+		width: 35px;
+		height: 35px;
+		bottom: 30px;
+	}
+	
+	.parent-div-dealer button.slick-next {
+		left: 166px;
+	}
+	
+	.heroimg-wrapper .parent-div-dealer button.slick-next {
+		left: 17vw;
+	}
+}
+
+

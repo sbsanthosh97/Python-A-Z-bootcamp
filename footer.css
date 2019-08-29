@@ -1,0 +1,78 @@
+.footer {
+	background: #0B1922;
+    display: inline-block;
+    width: 100%;
+    margin: 35px auto 0;
+	padding: 50px 4%;
+	box-sizing: border-box;
+	max-width: 1920px;
+	display: table;
+}
+
+.footer-wrapper {
+	padding: 15px 4%;
+	box-sizing: border-box;
+}
+
+.footer a,
+.footer h3 {
+	color: #75888e;
+}
+
+.footer a {
+	font-size: 20px;
+}
+
+.footer h3 {
+	font-size: 30px;
+}
+
+.footer-logo {
+	text-align: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #162832;
+}
+
+.footer ul {
+	list-style-type: none;
+    padding: 0;
+	margin: 0;
+}
+
+.footer ul li {
+    padding: 10px 0;	
+}
+
+.footer ul a { 
+    text-decoration: none;
+}
+
+.footer-wrapper .footer-gettonow,
+.footer-wrapper .footer-connetus,
+.footer-wrapper .footer-makemoney,
+.footer-wrapper .footer-letus {
+	width: 25%;
+	float: left;
+	padding: 15px 0;
+}
+
+.footer-gettonow h3,
+.footer-gettonow li {
+	width: 147px;
+}
+
+.footer-connetus h3,
+.ffooter-connetus li {
+	width: 112px;
+}
+
+.footer-makemoney h3,
+.footer-makemoney li {
+	width: 258px;
+}
+
+.footer-letush3,
+.footer-letusli {
+	width: 236px;
+}

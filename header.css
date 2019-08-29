@@ -1,0 +1,181 @@
+a {
+    text-decoration: none;
+	color: #75888e;
+}
+
+div {
+	display: inline-block;
+	width: 100%;
+}
+
+body {
+    margin: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.body-wrapper {
+	width: 100%;
+	max-width: 1920px;
+	display: block;
+    margin: 0 auto;
+}
+
+.header {
+	background: #112835;
+	padding: 0 7.9%;
+    box-sizing: border-box;
+}
+
+.header.home-page,
+.header.dealer-page,
+.header.pdp-page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: transparent;
+}
+.header .header-wrap {
+	height: 64px;
+    line-height: 64px;
+	color: #75888e;
+	font-size: 20px;
+	padding: 40px 0;
+}
+
+.header-left,
+.header-right {
+	width: 50%;
+}
+
+.header-left, .header-left div {
+	float: left;
+}
+
+.header-left .about-info, 
+.header-left .contact-info {
+	width: auto;
+	padding: 0 2%;
+	
+}
+
+.logo {
+	width: 31.42%;
+	padding-right: 2%;
+	height: 64px;
+	display: inline-table;
+}
+
+.header-right {
+    float: right;
+	text-align: right;
+}
+
+.header-right .reg-btn {
+	width: 20.2%;
+	background: yellow;
+	
+}
+.header-right .reg-btn a {
+	width: 100%;
+    display: inline-block;
+	text-align: center;
+	color: #000;
+}
+
+.header-right .country {
+	width: auto;
+}
+
+.header-right div {
+	padding: 0 3%;
+}
+
+.header-top-nav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.header-top-nav ul {
+	list-style-type: none;
+    padding: 0;
+	margin: 0;
+}
+
+.header-top-nav ul li {
+	width: auto;
+    font-size: 20px;
+    padding: 0px 25px;
+	display: inline-block;
+}
+.header-top-nav ul li a {
+	position: relative;
+}
+
+.header-top-nav ul li:hover a:after {
+	left: 0;
+    right: 0;
+    opacity: 1;
+}
+	
+.header-top-nav ul li a:after {
+	content: '';
+    position: absolute;
+    top: 24px;
+    display: block;
+    height: 2px;
+    left: 50%;
+    right: 50%;
+    z-index: 1;
+    opacity: 0;
+    background-color: #F7DD00;
+    transition: all .4s;
+}
+
+.search-bar {
+	position: relative;
+    z-index: 1;
+	text-align: center;
+	height: 58px;
+}
+
+.search-bar .site-search {
+	width: 67.4%;
+    position: relative;
+	height: 58px;
+}
+
+.search-bar .site-search .fa-search {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: .6625em;
+    color: #75888e;
+}
+
+input[type="search"] {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 4px 6px 4px, rgba(0, 0, 0, 0.19) 1px 1px 4px 1px;
+    background-color: rgb(15, 34, 45);
+    height: 58px;
+    line-height: 58px;
+    color: rgb(117, 136, 142);
+    font-size: 20px;
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 3px;
+    padding: 0px 2.5rem 0px 10px;
+}
+
+@media only screen and (max-width: 1366px) {
+	.header .header-wrap {
+		padding: 25px 0 15px;
+	}
+	
+	.header-wrapper {
+		margin: 10px 0;
+	}
+}

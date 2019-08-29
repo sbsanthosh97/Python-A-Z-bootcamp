@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="X-UA-Compatible" content="IE=8">
+		<meta name="viewport" content="width=device-width">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<title>home page</title>
+		<link rel="stylesheet" type="text/css" href="header.css"/>
+		<link rel="stylesheet" type="text/css" href="compare.css"/>
+		<link rel="stylesheet" type="text/css" href="plpaccessory.css"/>
+		<link rel="stylesheet" type="text/css" href="grid.css"/>
+		<link rel="stylesheet" type="text/css" href="footer.css"/>
+		<script src="jquery-1.12.1.min.js"></script>			
+	</head>
+	<body>
+		<div class="body-wrapper">
+			<div class="page-wrapper product-list-page">
+				<!---start-header--->
+				<div class="header">
+					<div class="header-wrap">
+						<div class="header-left">
+							<div class="logo">
+								<a href="homepage.html"> <img src="images/logo.svg" title="logo" /> </a>
+							</div>
+							<div class="about-info">
+								<a href="#"> About us </a>
+							</div>
+							<div class="contact-info">
+								<a href="#"> Contact us </a>
+							</div>
+						</div>
+						<div class="header-right"> 
+							<div class="reg-btn">
+								<a href="#" class="btn btn-register">
+									Register
+								</a>
+							</div>
+							<div class="country">
+								<span class="country-number"> 104,</span>
+								<span class="country-name"> san francisco</span>
+							</div>
+						</div>
+					</div>
+					<div class="choose-dealers">
+						<div class="left-content">
+							<div class="dealer-selection-tab">
+								<form action=" " method="post" id="" class="dealer-selection" novalidate="novalidate">
+									<div class="dealer-selection-title">
+										Choose best dealers for your new car!
+									</div>
+									<fieldset>
+										<div class="dealer-wrapper">
+											<div class="form-row label-inline dealer-selection-method first">
+												<label for="is-test1" class="radio-container">
+													Best Offers
+													<input type="radio" class="input-radio" id="is-test1" name="best-dealer-selection" value="defaultShip" checked="">
+													<span class="checkmark">  </span>
+												</label>
+											</div>
+											<div class="form-row label-inline dealer-selection-method second">
+												<label for="is-test2" class="radio-container">
+													Nearest to you 
+													<input type="radio" id="is-test2" class="input-radio" name="best-dealer-selection" value="shiptostore">
+													<span class="checkmark"> </span>
+												</label>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<div class="exterior-interior-tab">
+								<form action=" " method="post" id="" class="exterior-interior-selection" novalidate="novalidate">
+									<fieldset>
+										<div class="exterior-interior-wrapper">
+											<div class="form-row label-inline exterior-interior-method third">
+												<label for="is-test3" class="radio-container">
+													Exteriors
+													<input type="radio" class="input-radio" id="is-test3" name="exterior-interior-selection" value="exteriors" checked="">
+													<span class="checkmark">  </span>
+												</label>
+											</div>
+											<div class="form-row label-inline exterior-interior-method fourth">
+												<label for="is-test4" class="radio-container">
+													Interiors 
+													<input type="radio" id="is-test4" class="input-radio" name="exterior-interior-selection" value="interiors">
+													<span class="checkmark"> </span>
+												</label>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="right-content">
+							<div class="selector-wrapper">
+								<div class="select-dropdown">
+									<a href="#"> Linea <span class="arrow down"> </span> </a>
+								</div>
+								<div class="select-dropdown">
+									<a href="#"> XS <span class="arrow down"> </span> </a>
+								</div>
+								<div class="select-dropdown">
+									<a href="#"> Radient <span class="arrow down"> </span> </a>
+								</div>
+								<div class="select-dropdown">
+									<a href="#"> 3.5 out of 5 <span class="arrow down"> </span> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!---End-header--->
+				
+				<!---start-body--->
+				<div class="body-content">
+					<div class="body-wrapper">
+						<div class="primary">
+							<div class="search-result-content">
+								<ul class="search-result-items">
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod1.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod2.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod3.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod4.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												$<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod5.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod6.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod7.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod8.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod9.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+									<li class="grid-tile"> 
+										<div class="product-tile">
+											<div class="product-image">
+												<a class="thumb-link" href="#">
+													<div class="prod-img">
+														<img src="prodimages/prod1.png">
+													</div>
+												</a>
+											</div>
+											<div class="product-name">
+												<div class="prod-name">
+													<a href="#"> Foot Mat </a>
+												</div>
+											</div>
+											<div class="viewdetail-link">
+												<div class="view-detail">
+													<a href="#"> View details </a>
+												</div>
+											</div>
+											<div class="product-dealername">
+												from
+												<div class="dealername">
+													<img src=""> <span class="dealer-name"> SEIBON </span>
+												</div>
+											</div>
+											<div class="scratch-price">
+												<strike>$50.78</strike>
+											</div>
+											<div class="shopping-price">
+												$21.42 <span class="offer"> (25% off) </span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="secondary">
+							<h3 class="sort-by">Sort By </h3>
+							<div class="category-refinement">
+								<div class="refinement-header"> Recommended </div>
+								<ul id="category-level-1">
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> What's new </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> popularity </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Better discount </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Price: High to Low </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Price: Low to High </a>
+									</li>
+								</ul>
+							</div>
+							
+							<div class="category-refinement">
+								<div class="refinement-header"> Dealer </div>
+								<ul id="category-level-1">
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Remin </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Coverking </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> B&I</a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Dash designs</a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> SEIBON </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Sherwood </a>
+									</li>
+									<li class="view-more ">
+									    <a class="view-more-link"> view more </a>
+									</li>
+								</ul>
+							</div>
+							
+							<h3 class=""> Type </h3>
+							<div class="category-refinement">
+								<div class="refinement-header"> Foot Mats </div>
+								<ul id="category-level-1">
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Sunshades </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Trunk Mats </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Seat Covers </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Door Guards </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Steering Knobs </a>
+									</li>
+									<li class="view-more ">
+									    <a class="view-more-link"> view more </a>
+									</li>
+								</ul>
+							</div>
+							
+							<div class="category-refinement">
+								<div class="refinement-header"> Discount </div>
+								<ul id="category-level-1">
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> 10% - 25% </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> 25% - 50% </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Above 50% </a>
+									</li>
+								</ul>
+							</div>
+							
+							<div class="category-refinement">
+								<div class="refinement-header"> Price </div>
+								<ul id="category-level-1">
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> $50 - $500 </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> $500 - $1000 </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> $1000 - $1500 </a>
+									</li>
+									<li class="expandable ">
+										<a class="refinement-link "  href="#"> Above $1500 </a>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+					<div class="load-more">
+						<a href="#"> <img src="images/load-more.png"> view more</a>
+					</div>
+				</div>
+				<!---End-body--->
+				
+				<!---start-footer--->
+				<div class="footer">
+					<div class="footer-wrapper">
+						<div class="footer-logo">
+							<div class="logo"> <a href="homepage.html"> <img src="images/logo.svg" title="logo" /> </a> </div>
+						</div>
+						<div class="footer-gettonow">
+							<h3> Get to know us </h3>
+							<ul>
+								<li> <a href="#"> About us </a> </li>
+								<li> <a href="#"> Careers </a> </li>
+								<li> <a href="#"> New releases </a> </li>
+								<li> <a href="#"> AutoSeller cares </a> </li>
+								<li> <a href="#"> Gift </a> </li>
+							</ul>
+						</div>
+						<div class="footer-connetus">
+							<h3> Connect with us </h3>
+							<ul>
+								<li> <a href="#"> Facebook </a> </li>
+								<li> <a href="#"> Twitter </a> </li>
+								<li> <a href="#"> Instagram </a> </li>
+								<li> <a href="#"> Youtube </a> </li>
+							</ul>
+						</div>
+						<div class="footer-makemoney">
+							<h3> Make money with us </h3>
+							<ul>
+								<li> <a href="#"> Sell on AutoSeller </a> </li>
+								<li> <a href="#"> Become an affilate </a> </li>
+								<li> <a href="#"> Fullfillment by AutoSeller </a> </li>
+								<li> <a href="#"> Advertise your products </a> </li>
+								<li> <a href="#"> AutoSeller pay on merchants </a> </li>
+							</ul>
+						</div>
+						<div class="footer-letus">
+							<h3> Let us help you </h3>
+							<ul>
+								<li> <a href="#"> Your Account </a> </li>
+								<li> <a href="#"> Returns center </a> </li>
+								<li> <a href="#"> 100% purchase protection </a> </li>
+								<li> <a href="#"> Advertise your products </a> </li>
+								<li> <a href="#"> AutoSeller app download </a> </li>
+								<li> <a href="#"> Help </a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!---End-footer--->
+			</div>
+		</div>
+	</body>
+</html>
